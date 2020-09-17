@@ -1,0 +1,44 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.countDownToRefresh {
+  .container {
+    max-width: 200px;
+    margin: 0px auto;
+    }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-black;
+    padding: 20px;
+
+    border-width: thin;
+    border-color:lightslategray;
+    border-style: solid;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-sm12;
+    text-align: center;
+  }
+
+  .title {
+    font-size:x-small;
+    @include ms-fontColor-black;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+  }
+
+  .subTitle {
+    @include ms-fontColor-black;
+    font-size: xx-large;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+}
