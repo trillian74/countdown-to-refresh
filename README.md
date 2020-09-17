@@ -21,7 +21,7 @@ A small webpart that does a refresh of a sharepoint page ;)
 
 Solution|Author(s)
 --------|---------
-countdown-to-refresh | Ole Bergtun
+countdown-to-refresh | Ole Han Bergtun
 
 ## Version history
 
